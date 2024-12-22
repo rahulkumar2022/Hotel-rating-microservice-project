@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://myUsername:myPassword@localhost:27017/microservices
+      authentication-database: microservices
+
+server:
+  port: 8083
+
+
